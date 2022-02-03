@@ -1,4 +1,4 @@
-"""6 Deck Blackjack Card Game"""
+"""Runs a working, console-based 6-deck Blackjack card game utilizing functions and a class.  The game can be played as many times as the user would like before quitting."""
 
 import random
 done_playing = False;
