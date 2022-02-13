@@ -1,9 +1,9 @@
 """Runs a working, console-based 6-deck Blackjack card game utilizing functions and a class.  The game can be played as many times as the user would like before quitting."""
 
 import random
-done_playing = False;
-userTotal = 0;
-dealerTotal = 0;
+done_playing = False
+userTotal = 0
+dealerTotal = 0
 cardsdrawn = []
 user_card_list = []
 dealer_card_list = []
@@ -186,8 +186,8 @@ while done_playing == False:
         done_playing = True
     #if they say "Y", resets card lists, totals, cards drawn and draw phase
     elif yn == "Y":
-        userTotal = 0;
-        dealerTotal = 0;
+        userTotal = 0
+        dealerTotal = 0
         cardsdrawn = []
         user_card_list = []
         dealer_card_list = []
